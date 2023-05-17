@@ -1,7 +1,7 @@
 #!/bin/zsh
 # Must be run as root/sudo
 # Generate Generic Password Items for Intune EAP-TLS Configuration Profile 
-# https://macos.it-profs.de
+# https://macos.it-profs.de/microsoft-intune-and-the-missing-802-1x-settings/
 
 NetworkName=$(defaults read /Library/Preferences/SystemConfiguration/com.apple.network.eapolclient.configuration.plist Profiles | grep UserDefinedName | awk -F"= \"" {'print $NF'} | tr -d ";\"")
 
