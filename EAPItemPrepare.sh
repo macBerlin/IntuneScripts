@@ -1,5 +1,5 @@
 #!/bin/zsh
-
+# Must be run as root/sudo
 # Generate Generic Password Items for Intune EAP-TLS Configuration Profile 
 # https://macos.it-profs.de
 
