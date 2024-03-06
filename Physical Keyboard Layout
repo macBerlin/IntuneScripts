@@ -1,0 +1,2 @@
+#!/bin/zsh
+ioreg -l | grep KeyboardLanguage | awk -F= '{print $2}' | tr -d '"'
